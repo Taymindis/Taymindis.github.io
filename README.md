@@ -1,37 +1,16 @@
-## Welcome to Taymindis Home Pages
+### Welcome to Taymindis Home Pages
 
-You can use the [editor on GitHub](https://github.com/Taymindis/Taymindis.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Nginx Link Function](./ngx_link_func.html) - create your dynamic linkable application on top of nginx module 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Fcgi-function](./fcgi-function) - A cross-platform module to writing C/C++ service for nginx.
 
-### Markdown
+[Backcurl](./backcurl/) - C++ http client, pure libcurl based with customized set_easy_opt for different kind of requests for Mobile, NON BLOCK UI SYNC http request. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+[Lfqueue](./lfqueue/) - lock-free FIFO queue by C native built it, easy built cross platform(no extra dependencies needed), guarantee thread safety memory management ever!
 
-# Header 1
-## Header 2
-### Header 3
+[Lfstack](./lfstack/) - lock-free LIFO stack by C native built it, easy built cross platform(no extra dependencies needed), guarantee thread safety memory management ever!
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Taymindis/Taymindis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

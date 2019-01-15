@@ -1,1 +1,10 @@
 theme: jekyll-theme-midnight
+
+
+title: [Taymindis Repos]
+description: [Taymindis Repositories]
+host: 0.0.0.0
+show_downloads: false
+show_header: false
+show_credits: false
+
