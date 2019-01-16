@@ -23,7 +23,7 @@
 		let a = document.getElementById("btnGit");
 		let currPath = location.pathname.replace(new RegExp('/', 'g'), '');
 		if(currPath.length > 0) {
-			a.src.replace('xxxxx', currPath);
+			a.src = a.src.replace('xxxxx', currPath);
 		} else {
 			a.src = "";
 		}
