@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<script>
+	
+	
+	function locationHashChanged() {
+		let a = document.getElementsById("btnGit");
+		let currPath = location.pathname.replace(new RegExp('/', 'g'), '');
+		a.src.replace('xxxxx', currPath);
+	}
+	
+	window.onhashchange = locationHashChanged;
+	
+	
+	</script>
 
   </head>
   <body>
@@ -46,7 +60,9 @@
          {% endif %}
 
         </div>
-
+		
+		<iframe id="btnGit" src="https://ghbtns.com/github-btn.html?user=taymindis&repo=xxxxx&type=star&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+		
         {{ content }}
 
       </section>
