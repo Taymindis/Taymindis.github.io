@@ -22,10 +22,14 @@
 	function locationHashChanged() {
 		let a = document.getElementById("btnGit");
 		let currPath = location.pathname.replace(new RegExp('/', 'g'), '');
-		a.src.replace('xxxxx', currPath);
+		if(currPath.length > 0) {
+			a.src.replace('xxxxx', currPath);
+		} else {
+			a.src = "";
+		}
 	}
 	
-	window.onhashchange = locationHashChanged;
+	window.onload = locationHashChanged;
 	
 	
 	</script>
