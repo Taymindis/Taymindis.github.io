@@ -1,6 +1,6 @@
-[submodule "backcurl"]
-	path = backcurl
-	url = https://github.com/Taymindis/backcurl.git
+[submodule "wfqueue"]
+	path = wfqueue
+	url = https://github.com/Taymindis/wfqueue.git
 [submodule "lfqueue"]
 	path = lfqueue
 	url = https://github.com/Taymindis/lfqueue.git
@@ -10,3 +10,6 @@
 [submodule "fcgi-function"]
 	path = fcgi-function
 	url = https://github.com/Taymindis/fcgi-function.git
+[submodule "backcurl"]
+	path = backcurl
+	url = https://github.com/Taymindis/backcurl.git
